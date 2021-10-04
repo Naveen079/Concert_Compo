@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Chillax-Extralight";
+  src: url("../fonts/Chillax-Extralight.woff2") format("woff2"),
+    url("../fonts/Chillax-Extralight.woff") format("woff"),
+    url("../fonts/Chillax-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Chillax-Bold";
+  src: url("../fonts/Chillax-Bold.woff2") format("woff2"),
+    url("../fonts/Chillax-Bold.woff") format("woff"),
+    url("../fonts/Chillax-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+* {
+    margin-top: 1vh;
+  }
+.container {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    height: 168px;
+    background: linear-gradient(180deg, #f5ffce 0%, #c0ffe5 100%);
+    border-radius: 24px;
+    min-width: 30%;
+}
+
+.cnt_2{
+    background: linear-gradient(180deg, #FFDBFE 0%, #DFF7FF 100%);
+}
+
+.cnt_3{
+    background: linear-gradient(180deg, #FFF5D0 0%, #FFD8FB 100%);
+}
+h5{
+    padding: 30px;
+    font-size: 1.9vw;
+    font-family: "Chillax-Bold";
+  }
+.btnId {
+  position: relative;
+  bottom: 70px;
+  width: 7vw;
+  height: 40px;
+  color: #ffffff;
+  font-size: 1vw;
+  background: #23212b;
+  border-radius: 15px;
+  font-weight: 600;
+  margin-left: 28px;
+}
+
+.btn2 {
+  position: relative;
+  bottom: 70px;
+  margin: 15px;
+  justify-content: center;
+  width: 7vw;
+  font-size: 1vw;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.45);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+}
+
+.btn3 {
+  position: relative;
+  bottom: 70px;
+  justify-content: center;
+  width: 7vw;
+  font-size: 1vw;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.45);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+}
+
+@media (max-width:1076px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 17vh;
+        width: 30%;
+        margin: auto;
+        margin-bottom: 70px;
+
+    }
+   h5{
+       padding: 3vh;
+       padding-top:5px;
+       padding-bottom: 30px;
+   }
+    
+}
+@media (max-width:909px){
+    h5{
+        margin-bottom: 40px;
+        
+    }
+}
+
+
